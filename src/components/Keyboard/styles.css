@@ -1,0 +1,40 @@
+.keyboard-layout {
+  background-color: #f8a02660;
+  border-radius: 10px;
+  align-items: center;
+}
+.keyboard-row {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.column {
+  padding: 1px;
+  align-items: center;
+}
+.delete {
+  padding: 1px;
+  display: flex;
+  justify-content: flex-end;
+}
+.mobile {
+  display: none;
+}
+@media (max-width: 576px) {
+  .mobile {
+    display: block;
+  }
+}
+.Abutton {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.Abutton img {
+  width: 100%;
+  padding: 1px;
+}
+@media (max-width: 576px) {
+  .Abutton {
+    grid-template-columns: 1fr;
+  }
+}

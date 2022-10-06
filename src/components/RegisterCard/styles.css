@@ -1,0 +1,113 @@
+.styledCard-register {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 10px 40px 50px rgba(252, 146, 155, 0.25);
+  border: none;
+  padding: 50px 20px 50px 20px !important;
+  margin: 1.5rem auto !important;
+}
+@media only screen and (max-width: 575px) {
+  .col-register{
+    padding: 0;
+    margin: 0;
+  }
+  .body-register{
+    padding: 0;
+    margin: 0;
+  }
+  .styledCard-register {
+    padding: 15px !important;
+    margin: 10px !important;
+  }
+}
+.styledCard-register hr {
+  color: #0684d8 ;
+  opacity: 1;
+}
+.title-register {
+  font-weight: bold;
+  padding: 0.5rem 0;
+  text-align: left;
+}
+.title-register > h6 {
+  color: black;
+}
+.text-register {
+  font-size: medium;
+  font-weight: normal;
+  color: #8692a6;
+  text-align: left;
+}
+* {
+  box-sizing: border-box;
+}
+
+body,
+html,
+.App,
+#root,
+.outer {
+  width: 100%;
+  height: 100%;
+}
+
+.outer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+
+.inner {
+  width: 450px;
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 0px 14px 80px #3426f8;
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all 0.3s;
+}
+.form-control-register {
+  border: 1px solid #ced4da;
+}
+.form-control-register:focus {
+  border-color: #3426f8;
+  box-shadow: none;
+}
+
+.outer h3 {
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+
+.custom-control-label {
+  font-weight: 400;
+}
+
+.forgot-password-register,
+.forgot-password-register a {
+  text-align: right;
+  font-size: 13px;
+  padding-top: 10px;
+  color: #7f7d7d;
+  margin: 0;
+}
+
+.forgot-password-register a {
+  color: #3426f8;
+}
+.btn {
+  border-color: none;
+  border-radius: 7px;
+  background-color: #3426f8;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #0684d8;
+}

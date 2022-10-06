@@ -1,0 +1,17 @@
+.container {
+    text-align: center;
+  }
+  .buttonsColumn{
+        
+    margin: 1.5rem;
+  }
+  @media only screen and (min-width: 890px) {
+    .vl {
+        border-left: 2px solid #1e13b9;
+        height: 100%;
+        position: absolute;
+        left: 50%;
+        top: 0;
+      }
+  }
+  
